@@ -66,11 +66,11 @@
         <div class="card px-3 py-3">
             <form action="" method="post">
                 <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Id</label>
+                    <label for="id" class="form-label">Id</label>
                     <input type="text" class="form-control" id="id" name="id" value="<?php echo $id ?>" placeholder="misal: HRD" required>
                 </div>
                 <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Nama Bagian</label>
+                    <label for="nama" class="form-label">Nama Bagian</label>
                     <input type="text" class="form-control" id="nama" name="nama" value="<?php echo $row ['nama']?>" placeholder="misal: HRD" required>
                 </div>
                 <div class="col mb-3">

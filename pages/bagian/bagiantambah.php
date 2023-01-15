@@ -56,7 +56,7 @@
         <div class="card px-3 py-3">
             <form action="" method="post">
                 <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Nama Bagian</label>
+                    <label for="nama" class="form-label">Nama Bagian</label>
                     <input type="text" class="form-control" id="nama" name="nama" placeholder="misal: HRD" required>
                 </div>
                 <div class="col mb-3">
