@@ -14,8 +14,8 @@
 <div class="row mt-3">
     <div class="col">
         <?php
-            $selectSQL = "SELECT K.*,B.nama nama_bagian FROM karyawan K 
-                            RIGHT JOIN bagian B ON K.bagian_id = B.id";
+            $selectSQL = "SELECT K.*,B.nama nama_bagian FROM bagian B
+                            LEFT JOIN karyawan K ON K.bagian_id = B.id";
             $result    = mysqli_query($connection, $selectSQL);
             if(!$result){
             ?>
